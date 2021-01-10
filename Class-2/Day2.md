@@ -25,8 +25,7 @@ produced by the tags. Eg. your teacher asks you to submit an assignment on Data
 Structures, but also adds that you should use different colored sheets for different
 chapters like linked list, arrays, algorithms etc. , these colored sheets act as attributes to
 the tag of making an assignment.
-E.g. attributes are written along-side tagname with a space in between <textarea
-disabled>
+E.g. attributes are written along-side tagname with a space in between `<textarea disabled>`
 
 **Values**
 
