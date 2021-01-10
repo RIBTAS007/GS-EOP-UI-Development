@@ -211,62 +211,42 @@ This is my sixth heading
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML) (**Preferred when you have a strong grip on fundamentals**)
 * [Tutorials Point HTML]( https://www.tutorialspoint.com/html/index.html)
 
-Day 3
+## Day 3 - Adding Visual styles to UI
 
-CSS Fundamentals Quiz: https://docs.google.com/forms/d/1sApgtntnEl6bn37NM0aWWYfOpazlqphqO9Jy6lAdvxo/edit
-Difference between CSS2 and CSS3 keypoints: https://nimapinfotech.com/blog/css3-vs-css2/
-CSS Study Link W3Schools: https://www.w3schools.com/css/
-CSS Codecademy Link: https://www.codecademy.com/learn/learn-css (**Personally Preferred learning portal)
-JavaTPoint CSS Learning: https://www.javatpoint.com/css-tutorial
+### Introduction to CSS
 
-Adding Visual styles to UI
+* CSS may be divided into 3 types: inline CSS, embedded CSS, External CSS.
+    * **Inline CSS**: when the styles are coded as an attribute of the element or tag in the HTML file. E.g. `<p style="color: darkred;">`
+    * **Embedded CSS**: when the styles are coded as a part of head tag in the HTML file. E.g.```<head> <style>p{color: pink;} </style> </head>```
+    * **External CSS**: A designated CSS file is maintained containing only the styles , with an extension .css and is called upon in the HTML file through "link" tag. E.g. ```<link href="styles.css">```
+    
+* Cascading Style Sheets comprise of several property-value set of code to embed visually appealing styles to HTML coded web pages or websites.
 
-Introduction to CSS
+* The Grammar to define property-value set is: "property : value;" the property name followed by a colon further followed by the value and ended by a semi-colon. E.g. ```color : blue;```
 
-CSS may be divided into 3 types: inline CSS, embedded CSS, External CSS.
-. Inline CSS: when the styles are coded as an attribute of the element or tag in the
-HTML file. E.g. <p style="color: darkred;>"
-. Embedded CSS: when the styles are coded as a part of head tag in the HTML file. E.g.
-```<head> <style>p{color: pink;} </style> </head>```
-. External CSS: A designated CSS file is maintained containing only the styles , with an
-extension .css and is called upon in the HTML file through "link" tag. E.g. ```<link
-href="styles.css">```
-Cascading Style Sheets comprise of several property-value set of code to
-embed visually appealing styles to HTML coded web pages or websites.
-The Grammar to define property-value set is: "property : value;" the property
-name followed by a colon further followed by the value and ended by a
-semi-colon. E.g. ```color : blue;```
-These property-value sets are then supplied to elements of the web page, we
-wish to style, called selectors in CSS. Grammar for the same is as follows:
+* These property-value sets are then supplied to elements of the web page, we wish to style, called selectors in CSS. Grammar for the same is as follows:
 ```"selector{ property: value; }"```
-A Selector is a piece of code that selects and brings element to be styled, to
-the CSS table. E.g. ``` p{color: red;}```
 
-Selectors may be of wide variety, common of which are given here:
-. Element Name E.g. ```p, h1, article, nav, div, input etc.```
-. Element Class E.g.``` .box, .container etc.```
-. Element Id E.g.``` #box, #container etc.```
-. Universal Selector E.g. ```*{}```. A Universal Selector selects all the elements or tags on a
-web page like ```p, body, footer, header, span, a, img, div, etc.```
-. Element Name followed by attribute-value pair E.g. ```input[type="text"]```
-. Element name/class/id followed by attribute-value prefix. E.g. ```div[class^="box"],```
-.form-group[class^="box"],``` #form-group[class^="box"]```
-. Element name/class/id followed by attribute-value suffix. E.g. ```div[class$="wrapper"],
-.frame[class$="wrapper"], #frame[class$="wrapper"]```
-. Element name/class/id followed by attribute-value substring. E.g.
-```div[class*="wrapper"], .frame[class*="wrapper"], #frame[class*="wrapper"]```
-. homogenous/heterogenous combination of all the above mentioned selectors. E.g.
-```p.child{color: green;}, h2#top{color: cyan;}, div[class*="group"] input[type="text"]```
-```{font-size: 20px; border: 1px solid red;}```
-What if overriding styles are written for the same element by different
-selectors?: The specificity rule follows for different selectors which sets the
-priority for them.
+* A Selector is a piece of code that selects and brings element to be styled, to the CSS table. E.g. ``` p{color: red;}```
+
+* Selectors may be of wide variety, common of which are given here:
+    * Element Name E.g. ```p, h1, article, nav, div, input etc.```
+    * Element Class E.g.``` .box, .container etc.```
+    * Element Id E.g.``` #box, #container etc.```
+    * Universal Selector E.g. ```*{}```. A Universal Selector selects all the elements or tags on a web page like ```p, body, footer, header, span, a, img, div, etc.```
+    * Element Name followed by attribute-value pair E.g. ```input[type="text"]```
+    * Element name/class/id followed by attribute-value prefix. E.g. ```div[class^="box"]```,```form-group[class^="box"]``` ,```#form-group[class^="box"]```
+    * Element name/class/id followed by attribute-value suffix. E.g. ```div[class$="wrapper"],frame[class$="wrapper"], #frame[class$="wrapper"]```
+    * Element name/class/id followed by attribute-value substring. E.g. ```div[class*="wrapper"], .frame[class*="wrapper"], #frame[class*="wrapper"]```
+    * homogenous/heterogenous combination of all the above mentioned selectors. E.g. ```p.child{color: green;}, h2#top{color: cyan;}, div[class*="group"] input[type="text"]``` ```{font-size: 20px; border: 1px solid red;}```
+    
+* What if overriding styles are written for the same element by differentselectors?: The specificity rule follows for different selectors which sets the priority for them.
+
 The standard specificity rule is: inline style > id > class > element name
-Specificity Rule when same method is style is written multiple times: The
-greater valued line of code will execute. E.g. on line 4``` p{color: green}``` and on
-line 10 of same sheet ```p{color: blue}```, paragraph will be of blue color.
-Specificity when dealing with ```"!important"``` : It tends to pick the selector to
-which it is applied and place it on the top of hierarchy stack. E.g. ```p{color: red
+
+Specificity Rule when same method is style is written multiple times: The greater valued line of code will execute. E.g. on line 4``` p{color: green}``` and on line 10 of same sheet ```p{color: blue}```, paragraph will be of blue color.
+
+Specificity when dealing with ```"!important"``` : It tends to pick the selector to which it is applied and place it on the top of hierarchy stack. E.g. ```p{color: red
 !important} ```
 
 ### CSS Box Model
@@ -418,6 +398,13 @@ several new pseudo-elements are introduced like ::first-line, ::first-letter,
 several new pseudo-classes are introduced like :first-child, :hover, :active,
 :focus, :lang, :root, :empty etc.
 box-shadow property introduced, box-shadow: none | h-shadow vshadow blur spread color |inset;
+
+
+CSS Fundamentals Quiz: https://docs.google.com/forms/d/1sApgtntnEl6bn37NM0aWWYfOpazlqphqO9Jy6lAdvxo/edit
+Difference between CSS2 and CSS3 keypoints: https://nimapinfotech.com/blog/css3-vs-css2/
+CSS Study Link W3Schools: https://www.w3schools.com/css/
+CSS Codecademy Link: https://www.codecademy.com/learn/learn-css (**Personally Preferred learning portal)
+JavaTPoint CSS Learning: https://www.javatpoint.com/css-tutorial
 
 # Day 4
 
