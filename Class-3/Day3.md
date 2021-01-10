@@ -48,7 +48,7 @@ Platforms used : [jsfiddle](https://jsfiddle.net/) and [codepen.io](https://code
 
 * Property-Value Set related to CSS box-model is 'box-sizing'.
 
-* box-sizing: border-box | content-box
+* box-sizing: border-box \| content-box
 
 * By Default, the box-sizing property is set to the value content-box which means that padding and borders will not be included in the width and height of an element and will add their values to the width and height of the element , changing it's desired width and height.
 
@@ -68,7 +68,7 @@ Platforms used : [jsfiddle](https://jsfiddle.net/) and [codepen.io](https://code
 
 * box-sizing: border-box, will keep total width of div 300px by adjusting values like width 254px (width of div 300px - padding left 20px - padding right 20px - border right 3px - border left 3px)
 
-## Typogrphy and Formating
+## Typography and Formatting
 
 * font-family: Segoe UI | Times New Roman | Comic Sans | Helvetica | etc.
 
@@ -136,15 +136,15 @@ Platforms used : [jsfiddle](https://jsfiddle.net/) and [codepen.io](https://code
 
 * display: flex (set the display property of the container element to flexible box)
 
-* flex-direction: column | row | column-reverse | row-reverse (set the direction of items inside flexible container to appear in a row or a column)
+* flex-direction: column \| row \| column-reverse \| row-reverse (set the direction of items inside flexible container to appear in a row or a column)
 
-* flex-wrap: nowrap | wrap | wrap-reverse (when the device size is small it adjusts the flexible container items in the available spaces below the other)
+* flex-wrap: nowrap \| wrap \| wrap-reverse (when the device size is small it adjusts the flexible container items in the available spaces below the other)
 
-* justify-content: center | flex-start | flex-end | space-around | spacebetween etc. (The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).)
+* justify-content: center \| flex-start \| flex-end \| space-around \| spacebetween etc. (The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).)
 
-* align-items: center | flex-end | flex-start | baseline | stretch (The alignitems property specifies the default alignment for items inside the flexible container.)
+* align-items: center \| flex-end \| flex-start \| baseline \| stretch (The alignitems property specifies the default alignment for items inside the flexible container.)
 
-* align-self: center | flex-end | flex-start | baseline | stretch (The align-self property specifies the alignment for the selected item inside the flexible container. The align-self property overrides the flexible container's alignitems property.)
+* align-self: center \| flex-end \| flex-start \| baseline \| stretch (The align-self property specifies the alignment for the selected item inside the flexible container. The align-self property overrides the flexible container's alignitems property.)
 
 * flex-flow: flex-direction flex-wrap [shorthand property]
 
