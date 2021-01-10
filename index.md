@@ -2,13 +2,11 @@
 
 This is a 10 day crash course of UI Development which will cover almost all the basics required to kickstart UI Development.
 
+![logo](logo.png)
+
 Mentored by : [Ritika Gupta](https://www.linkedin.com/in/gritika1906/)
 
 Platforms used : [jsfiddle](https://jsfiddle.net/) and [codepen.io](https://codepen.io/collection/AQPkmq )
-
-***
-
-![logo](logo.png)
 
 ***
 
