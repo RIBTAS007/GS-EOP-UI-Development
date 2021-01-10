@@ -42,7 +42,7 @@ Platforms used : [jsfiddle](https://jsfiddle.net/) and [codepen.io](https://code
 
 ## CSS Box Model
 
-![CSS Image](Class-3/css-box-model.png)
+![CSS Image](css-box-model.png)
 
 * Every Element or tag placed on a web page may be imagined of as abox. This box contains an invisible environment around it's edges marking it's features. These features are margins -> borders -> padding-> content
 
