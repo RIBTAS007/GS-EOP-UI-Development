@@ -156,7 +156,8 @@ A mixin may be called in another mixin with additional or no set of style statem
       color: color(red,10);
       }
    ```  
-### Resources
+
+## Resources
 
 * [SASS official website to explore in-depth features of SASS and their usage]( https://sass-lang.com/guide)
 * [SASS from W3Schools]( https://www.w3schools.com/sass/)
