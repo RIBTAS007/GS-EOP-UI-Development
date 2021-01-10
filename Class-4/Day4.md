@@ -61,6 +61,7 @@ Font-awesome icons library is used widely to include icons on a web page or webs
        ``` javascript
        <i class="fa fa-adjust">
        ```
+
 ### CSS Transform
 
 * **transform: rotate(angle)** - This property enables to rotate an element by an angle given, to which it is applied. E.g. `transform: rotate(45deg);`
