@@ -70,7 +70,7 @@ Platforms used : [jsfiddle](https://jsfiddle.net/) and [codepen.io](https://code
 
 ## Typography and Formatting
 
-* font-family: Segoe UI | Times New Roman | Comic Sans | Helvetica | etc.
+* font-family: Segoe UI \| Times New Roman \| Comic Sans \| Helvetica \| etc.
 
 * Commonly fallback values are given for such properties to ensure the display does not break on any browser. Fallback values may be given in a single property separated by commas. E.g. ```font-family: helvetica,sansserif.```
 
@@ -78,11 +78,11 @@ Platforms used : [jsfiddle](https://jsfiddle.net/) and [codepen.io](https://code
 
 * font-size: any numeric value(in px, em, rem etc. units)
 
-* text-decoration: none | underline |line-through | underline | overline etc.
+* text-decoration: none \| underline \|line-through \| underline \| overline etc.
 
-* font-weight: normal | bold | bolder | lighter | number | initial | inherit;
+* font-weight: normal \| bold \| bolder \| lighter \| number \| initial \| inherit;
 
-* text-transform: uppercase | lowercase | capitalize | none etc.
+* text-transform: uppercase \| lowercase \| capitalize \| none etc.
 
 * text-indent: number
 
@@ -96,15 +96,15 @@ Platforms used : [jsfiddle](https://jsfiddle.net/) and [codepen.io](https://code
 
 * shadow-smudge-number shadow-color
 
-* text-align: center | right | left | justify etc.
+* text-align: center \| right \| left \| justify etc.
 
 * background-color: color code
 
-* display: block | inline-block | inline | flex | inline-flex
+* display: block \| inline-block \| inline \| flex \| inline-flex
 
 * opacity: number between 0 to 1
 
-* position: fixed | absolute | relative | static | sticky
+* position: fixed \| absolute \| relative \| static \| sticky
 
 * margin: margin-top margin-right margin-bottom margin-left (TRBL Trouble rule) [shorthand]
 
@@ -124,7 +124,7 @@ Platforms used : [jsfiddle](https://jsfiddle.net/) and [codepen.io](https://code
 
 * max-height: number
 
-* overflow: scroll | hidden | auto | none
+* overflow: scroll \| hidden \| auto \| none
 
 * border-radius: number
 
