@@ -19,7 +19,7 @@ DAY | Topics Covered
 3 | [Adding Visual styles to UI I](Class-3/Day3.html)
 4 | [Adding Visual styles to UI II](Class-4/Day4.html) 
 5 | [Introduction to CSS preprocessors](Class-5/Day5.html) 
-6 | [Making a Web Resume](Class-6.Day6.html)  
+6 | [Making a Web Resume](Class-6/Day6.html)  
 7 | [Coming Soon](dme_of_day7.html) 
 8 | [Coming Soon](adme_of_day6.html)  
 9 | [Coming Soon](dme_of_day7.html) 
