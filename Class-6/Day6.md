@@ -273,3 +273,10 @@ footer{
     }
 }
 ```
+## Resources
+
+* [FontAwesome Icons as tags](https://fontawesome.com/v4.7.0/cheatsheet/)
+* [FontAwesome Icons CSS Content code list]( https://astronautweb.co/snippet/font-awesome/)
+* [User Default Image Placed](https://itibalasore.org/wp-content/uploads/2018/02/default-user-male.png)
+
+You could deploy your created web resume on [codepen.io](https://codepen.io/accounts/signup) portal and share your profile link with the recruiters.(Sign up is free for ordinary account, paid only for pro account)
