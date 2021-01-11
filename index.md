@@ -1,6 +1,6 @@
 # UI Development : GirlScript Education Outreach
 
-This is a 10 day crash course of UI Development which will cover almost all the basics required to kickstart UI Development.
+This is a 7 day Bootcamp of UI Development which will cover almost all the basics required to kickstart UI Development.
 
 ![logo](logo.png)
 
