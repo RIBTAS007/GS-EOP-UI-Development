@@ -8,9 +8,7 @@ Mentored by : [Ritika Gupta](https://www.linkedin.com/in/gritika1906/)
 
 Platforms used : [jsfiddle](https://jsfiddle.net/) and [codepen.io](https://codepen.io/collection/AQPkmq )
 
-***
-
-## Course Structure
+# Course Structure
 
 DAY | Topics Covered 
 --- | --- 
