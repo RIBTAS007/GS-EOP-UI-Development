@@ -8,7 +8,7 @@ Platforms used : [jsfiddle](https://jsfiddle.net/) and [codepen.io](https://code
            
 ## HTML Code
 
-```HTML
+```javascript
 
 <html>
     <head>
@@ -178,7 +178,7 @@ Platforms used : [jsfiddle](https://jsfiddle.net/) and [codepen.io](https://code
 ```
 ## SCSS Code
 
-``` CSS
+``` javascript
 *{
     margin: 0;
     padding: 0;
