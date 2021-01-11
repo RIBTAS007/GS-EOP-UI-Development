@@ -2,7 +2,7 @@
 
 ## [Course Website](https://ribtas007.github.io/GS-EOP-UI-Development/ )
 
-This is a 10 day crash course of UI Development which will cover almost all the basics required to kickstart UI Development.
+This is a 7 day bootcamp of UI Development which will cover almost all the basics required to kickstart UI Development.
 
 ![logo](logo.png)
 
