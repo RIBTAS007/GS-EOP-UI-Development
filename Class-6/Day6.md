@@ -10,7 +10,7 @@ Platforms used : [jsfiddle](https://jsfiddle.net/) and [codepen.io](https://code
     <head>
         <title>Resume</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://github.com/RIBTAS007/GS-EOP-UI-Development/blob/main/Class-6/ext.css">
+        <link rel="stylesheet" href="ext.css">
     </head>
     <body>
         <header>
