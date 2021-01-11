@@ -4,7 +4,7 @@ Mentored by : [Ritika Gupta](https://www.linkedin.com/in/gritika1906/)
 
 Platforms used : [jsfiddle](https://jsfiddle.net/) and [codepen.io](https://codepen.io/collection/AQPkmq )
 
-## [Demo](https://ribtas007.github.io/GS-EOP-UI-Development/Class-6/index.html)
+## [Click here to watch the demo](https://ribtas007.github.io/GS-EOP-UI-Development/Class-6/index.html)
            
 ## HTML Code
 
