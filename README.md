@@ -22,7 +22,7 @@ DAY | Topics Covered
 4 | Adding Visual styles to UI II
 5 | Introduction to CSS preprocessors
 6 | Making a Web Resume 
-7 | Coming soon 
+7 | Wrap-Up Session 
 
 
 ***
