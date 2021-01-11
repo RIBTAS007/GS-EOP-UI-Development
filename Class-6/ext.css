@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Segoe UI, helvetica, sans-serif;
+  color: brown;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: beige;
+  padding: 12px;
+}
+header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+header span {
+  display: block;
+}
+header span a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+}
+main aside {
+  background-color: goldenrod;
+  padding: 34px;
+  min-width: 200px;
+}
+main aside h2 {
+  text-transform: capitalize;
+  margin-bottom: 12px;
+  margin-top: 16px;
+}
+main aside span {
+  display: block;
+  margin-bottom: 10px;
+}
+main aside span.lang-param {
+  display: inline-block;
+  margin-right: 5px;
+}
+main aside p {
+  font-weight: 600;
+}
+main article {
+  padding: 24px;
+}
+main article h2 {
+  text-transform: capitalize;
+  margin-bottom: 12px;
+  margin-top: 16px;
+}
+main article h2.profession-head::after {
+  content: "\f0b1";
+  font-family: FontAwesome;
+}
+main article h2.education-head::after {
+  content: "\f19d";
+  font-family: FontAwesome;
+}
+main article h2.certification-head::after {
+  content: "\f0a3";
+  font-family: FontAwesome;
+}
+main article span.head {
+  font-weight: 700;
+  display: block;
+  margin-bottom: 8px;
+  margin-top: 12px;
+  text-transform: capitalize;
+}
+footer {
+  background-color: beige;
+  text-align: center;
+  padding: 12px;
+}
+footer a {
+  text-decoration: none;
+  margin-left: 10px;
+}
