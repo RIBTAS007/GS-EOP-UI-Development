@@ -18,5 +18,5 @@ DAY | Topics Covered
 4 | [Adding Visual styles to UI II](Class-4/Day4.html) 
 5 | [Introduction to CSS preprocessors](Class-5/Day5.html) 
 6 | [Making a Web Resume](Class-6/Day6.html)  
-7 | [Coming Soon](Class-7/Day7.html) 
+7 | [Wrap-Up Session](Class-7/Day7.html) 
  
