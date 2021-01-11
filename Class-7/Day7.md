@@ -10,7 +10,7 @@ JS is a programming/coding language used make web pages or a website more dynami
 written and stored) methods, also called inbuilt JS functions.
 
 JavaScript is designed on a simple object-based paradigm. An object is a collection of properties, and a property is an association between a name (or
-key) and a value.E.g. var person = `{firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};`
+key) and a value.E.g. `var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};`
 
 You can objects in two ways:
 1. objectName.propertyName E.g. `person.lastName;`
