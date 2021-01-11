@@ -21,11 +21,9 @@ DAY | Topics Covered
 3 | Adding Visual styles to UI I 
 4 | Adding Visual styles to UI II
 5 | Introduction to CSS preprocessors
-6 | coming soon 
+6 | Making a Web Resume 
 7 | Coming soon 
-8 | coming soon 
-9 | Coming soon 
-10 | coming soon 
+
 
 ***
 
